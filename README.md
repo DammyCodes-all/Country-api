@@ -18,7 +18,7 @@ An interactive web application that fetches and displays country information usi
 - REST Countries API
 
 ## Live Demo
-[View Demo](https://dammycodes-all.github.io/Country-api/)
+[View Demo](https://country-api-gold.vercel.app/)
 
 ## Setup
 1. Clone the repository:
