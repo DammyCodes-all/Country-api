@@ -57,7 +57,7 @@ li{
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 .card:hover{
-    transform: scale(1.01);
+    transform: scale(0.98);
 }
 .head {
     height: 40%;
@@ -153,4 +153,46 @@ input:focus{
     justify-content: center;
     align-items: center;
     flex-direction: row ;
+}
+.neighbor{
+    transform: scale(0.85);
+    order: 1;
+}
+.neighbor:hover{
+    transform: scale(0.8);
+}
+.neighbor::before{
+    content: 'NEIGHBOR COUNTRY';
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    justify-content: center;
+}
+.neighbor img{
+    position: relative;
+    bottom: 20px;
+}
+.shown{
+    top: 10px;
+    display: block;
+}
+.none{
+    text-align: center;
+    display: none;
+}
+.error{
+    color: red;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 10px;
+    font-size:small;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 0.9s ease-in-out;
+}
+.error-shown{
+    opacity: 1;
 }

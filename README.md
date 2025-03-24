@@ -1,35 +1,41 @@
 # Country Info Generator
 
-This project is a simple web application that fetches and displays information about a country using the REST Countries API.
+## Description
+An interactive web application that fetches and displays country information using the REST Countries API. When you search for a country, it shows details like the flag, population, language, currency, and even displays a random neighboring country.
 
 ## Features
-
-- Fetches country data including flag, population, language, and currency.
-- Displays the data in a card format.
-- Responsive design.
+- 🔍 Search countries by name
+- 🎌 Display country flags and basic information
+- 🌍 Show random neighboring country
+- 💫 Smooth animations and transitions
+- ⚡ Real-time error handling
 
 ## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 - jQuery
 - REST Countries API
 
-## How to Use
-
-1. Enter the name of a country in the input field.
-2. Click the send button.
-3. The country information will be displayed in a card.
+## Live Demo
+[View Demo](https://dammycodes-all.github.io/Country-api/)
 
 ## Setup
-
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/DammyCodes-all/Country-api.git
-    ```
-2. Open [index.html](http://_vscodecontentref_/0) in your browser.
+```bash
+git clone https://github.com/DammyCodes-all/Country-api.git
+```
+2. Open `index.html` in your browser
 
-## License
+## Usage
+1. Type a country name in the search box
+2. Press Enter or click the send button
+3. View the country information and a random neighbor
 
-This project is licensed under the MIT License.
+## Error Handling
+- Displays user-friendly error messages
+- Handles cases for invalid country names
+- Manages scenarios where countries have no neighbors
+
+## Author
+[@DammyCodes-all](https://github.com/DammyCodes-all)
